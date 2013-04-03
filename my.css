@@ -1,0 +1,35 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+#cajadescripcion{
+	text-align: center;
+}
+
+.descripcion{
+	text-align: justify;
+	font-size: 1em;
+	text-shadow:0 0 0 0;
+}
+.fontawesome-align-justify{
+	font-size: 1.7em;
+}
+.fontawesome-circle-arrow-right{
+	font-size: 1.5em;
+}
+.fontawesome-circle-arrow-left{
+	font-size: 1.5em;
+}
+.fontawesome-external-link{
+	font-size: 1.5em;
+}
+.platillo{
+	text-align: justify;
+	font-size: 1.5em;
+	text-shadow:0 0 0 0;
+}
+.precio{
+	text-align: justify;
+}
