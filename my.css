@@ -1,12 +1,8 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
 #cajadescripcion{
 	text-align: center;
 	background: #778899;
+  border-bottom: 1px solid red;
 }
 #footer{
 	background:#484848;
@@ -26,33 +22,40 @@
 #email{
 	background: green;
 }
+#menu{
+	border-radius: 3px;
+	background: #4099FF;
+ border-top: 2px #4099FF;
+  border-left: 2px #4099FF;
+  border-bottom: 2px #4099FF
+}
+ #cabesa{
+	background: black;
+}
+#panel{
+	background: #4099FF;
+	border-radius: 1px;
+}
+#prueba{
+  box-shadow: 
+  0 1px 2px #fff,
+  0 -1px 1px #666, 
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/ 
+
+}
+#page1{
+	background-color: red;
+}
+
+#list{
+	border-radius: 1px;
+}
 
 .descripcion{
 	color: white ;
 	font-size: 1em;
 	
-}
-.fontawesome-align-justify{
-	font-size: 1.7em;
-}
-.fontawesome-circle-arrow-right{
-	font-size: 1.5em;
-}
-.fontawesome-circle-arrow-left{
-	font-size: 1.5em;
-}
-.fontawesome-share{
-	font-size: 1.5em;
-}
-.fontawesome-leaf{
-	color:red;
-	font-size: 
-}
-.fontawesome-facebook{
-	font-size: 1.5em;
-}
-.fontawesome-twitter{
-	font-size: 1.2em; 
 }
 .platillo{
 	font-size: 1.2em;
@@ -65,4 +68,41 @@
 }
 .indicates{
 	color:white;
+  border-bottom: 1px solid red;
 }
+.prueba{
+  font-size:30px;
+}
+#page1 {
+    padding:5px;
+    background-color: white;
+    border-radius: 1px;
+}
+.logo{
+  width: 200px;
+  height: 50px;
+  padding: 0 30% 0 30%;
+  margin: 0 0 0 0;
+}
+/*#input {
+    padding:10px 60px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%);
+    /* firefox */ /*
+    border: solid #ccc 3px;
+    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 1px 2px #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6e6b4), color-stop(100%, #ed9017));
+    /* webkit */
+    /*font-size:20px
+}
+span {
+} */ 
+{
+
+}
+
