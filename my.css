@@ -1,26 +1,26 @@
-
+a{
+  text-decoration: none;
+  color: red;
+}
 #cajadescripcion{
 	text-align: center;
-	background: #778899;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid white;
 }
 #footer{
-	background:#484848;
-	text-align: center;
+	background: black;
+  text-align: center;
 	font-size: 0.7em;
 
 }
 #facebook{
 	background: #3B5998;
+  width: 100%;
+  text-align: left;    
 }
 #twitter{
 	background: #4099FF;
-}
-#googleplus{
-	background: #F90101;
-}
-#email{
-	background: green;
+  width: 100%;
+  text-align: left; 
 }
 #menu{
 	border-radius: 3px;
@@ -44,9 +44,6 @@
   inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/ 
 
 }
-#page1{
-	background-color: red;
-}
 
 #list{
 	border-radius: 1px;
@@ -68,14 +65,13 @@
 }
 .indicates{
 	color:white;
-  border-bottom: 1px solid red;
 }
 .prueba{
   font-size:30px;
 }
 #page1 {
-    padding:5px;
-    background-color: white;
+    padding:0px;
+    background-color: grey;
     border-radius: 1px;
 }
 .logo{
@@ -102,7 +98,43 @@
 }
 span {
 } */ 
-{
+#grida{
+  width: 80%;
+}
+#gridb{
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+#namepricesharer{
 
+}
+.name{
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 100px;
+}
+#parrafo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.share{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#oldshare{
+  display: none;
+}
+#navbar{
+  border-bottom: 1px solid white;
+  display: none;
+
+
+}
+.fderecha, .fizquierda{
+  color: red;
+  font-size: 3em;
+  font-weight: bold;
 }
 

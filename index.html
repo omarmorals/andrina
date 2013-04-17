@@ -11,7 +11,7 @@
     <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
 </head>
 <body>
-  <div data-role="page" data-theme="f" id="page1">
+  <div data-role="page" data-theme="a" id="page1">
       <div data-role="panel" data-theme="a"id="panel" data-position="left" display="reveal">
               <ul data-role="listview" data-filter="true" data-theme="a" id="list" data-filter-placeholder="Search fruits..." data-inset="true">
                  <li><a href="#">Apple</a></li>
@@ -23,70 +23,71 @@
              </ul>
         </div>
       <div data-theme="b" data-role="header" id="cabesa" >
-         <a href="#panel"  id="menu" ><span class="fontawesome-reorder">
+         <a href="#panel"  id="menu" >tres
          </a>
           <img class="logo" src="pic/logoblackbc.png">
-          <a href="#popupMenu" data-rel="popup" data-block="true" data-transition="flip" data-theme="b"><span class="fontawesome-reorder">
-         </a>
       </div>
-      <div data-role="content" style="padding: 5px">
+      <div data-role="content" style="padding: 0px">
           <div style=" text-align:center;">
               <img style="width: 100%; height:auto " src="pic/OrangeCk.png">
           </div>
-        <div data-role="navbar" data-iconpos="left">
+        <div data-role="navbar" data-iconpos="left" id="navbar" data-theme="f">
             <ul>
                 <li>
-                    <a href="#page1" data-transition="fade" data-theme="" data-icon=""><span class="fontawesome-circle-arrow-left"></span><br>Previous
+                    <a href="#page1" data-transition="fade" data-theme="f" data-icon=""><span class="fderecha">&larr;</span>Prev
                     </a>
                 </li>
                 <li>
-                    <div data-theme="a">
+                  <div data-theme="a" id="oldshare">
                 <a href="#popupMenu" data-rel="popup" data-role="button" data-block="true" data-transition="flip" data-theme="a"><span class="fontawesome-share"></span><br>Share
                 </a>
-            <div data-role="popup" id="popupMenu" data-theme="a">
+              <div data-role="popup" id="popupMenu" data-theme="f">
                 <div>
-                  <a id="facebook" data-theme"f" href="http://www.facebook.com">Facebook
-                  </a>
+                  <a id="facebook" data-theme"f" href="http://www.facebook.com">Facebook</a>
                 </div>
                 <div>
                   <a id="twitter"  data-theme"f" href="http://twitter.com/share?text=An%20Awesome%20Link%20via%20@themingtree&url=http://www.themingtree.mobi/BBQ.html"><span class="fontawesome-twitter"></span>   Twitter
                   </a> 
                 </div> 
-                <div >
-                  <a  id="googleplus" href="https://plus.google.com/share?url=http://www.themingtree.mobi/BBQ.html"><span class="fontawesome-google-plus"></span>
-                  Google+
-                  </a>
-                </div>
-                <div>
-                  <a id="email" data-role="button" href="mailto:someone@example.com"><span class="fontawesome-envelope-alt"></span>
-                  Email
-                  </a>
-                </div>
             </div>
                 </li>
                 <li>
-                    <a href="#page1" data-transition="fade" data-theme="">
-                       <span class="fontawesome-circle-arrow-right"></span><br>Next
+                    <a href="#page1" data-transition="fade" data-theme="f">Next 
+                       <span class="fizquierda">&rarr;</span>
                     </a>
                 </li>
             </ul>
         </div>
+        <div class="ui-grid-a" id="namepricesharer">
+            <div class="ui-block-a" id="grida">
+                    <p id="parrafo">
+                    <span class="name">Lemon or Orange Chicken</span><br> <span class="price">$9.25</span>
+                    </p>
+            </div>
+            <div class="ui-block-b" id="gridb">
+                <a href="#popupMenu" data-rel="popup" class="share">icon<br>Share<br>
+                </a>
+            </div>
+        </div>
         <div id="cajadescripcion">
-              <span class="platillo">
-                  <span class="fontawesome-leaf"></span> Lemon Or Orange Chicken
-               </span><br>    
-              <span class="descripcion">
+          <p>
                           special boneless fried chicken topped with our own light and tangy lemon or orange sauce.
-              </span><br>
-              <span class="precio">
-                $9.25
-              </span><br> 
+         </p>
         </div>
         <div>
           <!--<input type="submit" value="Submit you" id="input" />-->
         </div>
+         <div data-role="popup" id="popupMenu" data-theme="f">
+                <div>
+                  <a id="facebook" data-theme"f" href="http://www.facebook.com">Facebook</a>
+                </div>
+                <div>
+                  <a id="twitter"  data-theme"f" href="http://twitter.com/share?text=An%20Awesome%20Link%20via%20@themingtree&url=http://www.themingtree.mobi/BBQ.html"><span class="fontawesome-twitter"></span>   Twitter
+                  </a> 
+                </div> 
+            </div>
      </div>   
-        <div  data-role="footer" id="footer">
+        <div  data-role="footer" id="footer" data-position="fixed">
           <span class="fontawesome-leaf"></span> <span class="indicates"> Indicates Hot &and Spicy <br>Any additions to your entree will cost extra </span>
         </div> 
   </div>
