@@ -2,6 +2,9 @@ a{
   text-decoration: none;
   color: red;
 }
+a:hover{
+  background: red;
+}
 #cajadescripcion{
 	text-align: center;
   border-bottom: 1px solid white;
@@ -133,11 +136,22 @@ span {
 
 }
 .fderecha, .fizquierda{
-  color: red;
-  font-size: 3em;
+  border: 1px solid white;
+  font-size: 2em;
   font-weight: bold;
+  border-radius: 3px;
+
 }
 #prevnextbox{
   border-bottom: 1px solid white;
+  text-align: center;
+
+}
+#next, #prev{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fderercha,{
+  color: white;
 }
 
