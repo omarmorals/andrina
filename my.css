@@ -1,15 +1,22 @@
 a{
   text-decoration: none;
-  color: red;
+}
+.nombre{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 1.5em;
+
 }
 #cajadescripcion{
 	text-align: center;
   border-bottom: 1px solid white;
 }
 #footer{
-	background: black;
   text-align: center;
 	font-size: 0.7em;
+  background: #4099FF;
 
 }
 #facebook{
@@ -25,12 +32,11 @@ a{
 #menu{
 	border-radius: 3px;
 	background: #4099FF;
- border-top: 2px #4099FF;
-  border-left: 2px #4099FF;
-  border-bottom: 2px #4099FF
+  font-weight: bold;
+
 }
  #cabesa{
-	background: black;
+	background: #4099FF;
 }
 #panel{
 	background: #4099FF;
@@ -50,9 +56,10 @@ a{
 }
 
 .descripcion{
-	color: white ;
-	font-size: 1em;
-	
+	font-size: 1.2em;
+	margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .platillo{
 	font-size: 1.2em;
@@ -71,8 +78,6 @@ a{
 }
 #page1 {
     padding:0px;
-    background-color: grey;
-    border-radius: 1px;
 }
 .logo{
   width: 60%;
@@ -117,6 +122,7 @@ span {
 #parrafo{
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-left: 10px;
 
 }
 .share{
@@ -127,23 +133,29 @@ span {
   display: none;
 }
 #navbar{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   display: none;
 
 
 }
 #fderecha, #fizquierda{
-  border: 1px solid aqua;
-  font-size: 2em;
+  border: 1px solid black;
+  font-size: 1.5em;
   font-weight: bold;
   border-radius: 40px;
   padding: 0px 4px 4px 4px;
-  color: aqua;
+  margin-top: -50px;
+  color: black;
+  box-shadow: 
+  0 1px 2px #fff,
+  0 -1px 1px #666, 
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8);
 
 }
 #prevnextbox{
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   text-align: center;
 
 }
@@ -154,4 +166,3 @@ span {
 .fderercha,{
   color: white;
 }
-
