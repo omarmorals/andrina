@@ -1,3 +1,4 @@
+hola como estan yo bien
 a{
   text-decoration: none;
 }
@@ -36,7 +37,7 @@ a{
 
 }
  #cabesa{
-	background: #4099FF;
+	background: #4099ff;
 }
 #panel{
 	background: #4099FF;
@@ -165,4 +166,9 @@ span {
 }
 .fderercha,{
   color: white;
+}
+#nombre{
+ text-shadow: 0px 1px 1px black;
+        color: #222;
+        font: 80px
 }
