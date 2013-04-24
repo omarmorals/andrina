@@ -1,134 +1,65 @@
-hola como estan yo bien
+
 a{
   text-decoration: none;
 }
-.nombre{
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  font-size: 1.5em;
 
-}
 #cajadescripcion{
-	text-align: center;
   border-bottom: 1px solid white;
-}
-#footer{
   text-align: center;
-	font-size: 0.7em;
-  background: #4099FF;
-
+}
+#cabesa{
+  background: #4099ff;
 }
 #facebook{
-	background: #3B5998;
+  background: #3B5998;
+  box-shadow: none;  
+  color:white;
+  text-align: left;
   width: 100%;
-  text-align: left;    
 }
-#twitter{
-	background: #4099FF;
-  width: 100%;
-  text-align: left; 
+#footer{
+  background: #4099FF;
+  font-size: 0.7em;
+  text-align: center;
 }
-#menu{
-	border-radius: 3px;
-	background: #4099FF;
-  font-weight: bold;
-
-}
- #cabesa{
-	background: #4099ff;
-}
-#panel{
-	background: #4099FF;
-	border-radius: 1px;
-}
-#prueba{
-  box-shadow: 
-  0 1px 2px #fff,
-  0 -1px 1px #666, 
-  inset 0 -1px 1px rgba(0,0,0,0.5), 
-  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/ 
-
-}
-
-#list{
-	border-radius: 1px;
-}
-
-.descripcion{
-	font-size: 16px;
-	margin-top: 0px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.platillo{
-	font-size: 1.2em;
-	color: #ffebcd;
-	
-}
-.precio{
-	color:aqua;
-	
-}
-.indicates{
-	color:white;
-}
-.prueba{
-  font-size:30px;
-}
-#page1 {
-    padding:0px;
-}
-.logo{
-  width: 60%;
-  height: 2.3em;
-  padding-left: 30%;
-  
-}
-/*#input {
-    padding:10px 60px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%);
-    /* firefox */ /*
-    border: solid #ccc 3px;
-    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-    -moz-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-    text-shadow: 0 1px 2px #fff;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6e6b4), color-stop(100%, #ed9017));
-    /* webkit */
-    /*font-size:20px
-}
-span {
-} */ 
 #grida{
   width: 80%;
 }
 #gridb{
-  width: 20%;
-  text-align: center;
   font-weight: bold;
+  text-align: center;
+  width: 20%;
+}
+#menu{
+  background: #4099FF;
+  border-radius: 3px;
+  font-weight: bold;
+}
+#nombre{
+ text-shadow: 0px 1px 1px black;
+ color: #222;
+ font: 80px;
+}       
+#panel{
+  background: url('http://assets.codiqa.com/ps/34081/e8562802b3842ecfios_notification_bg_tile.jpg');
+  border-radius: 1px;
+}
+#list{
+  border-radius: 1px;
+}
+#twitter{
+  background: #4099FF;
+  text-align: left; 
+  width: 100%;
 }
 #namepricesharer{
 
 }
-.name{
-  font-weight: bold;
-  font-size: 1em;
-  padding-top: 100px;
-}
-#parrafo{
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-left: 10px;
+#prevnextbox{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
 
-}
-.share{
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 #oldshare{
   display: none;
@@ -152,23 +83,84 @@ span {
   0 -1px 1px #666, 
   inset 0 -1px 1px rgba(0,0,0,0.5), 
   inset 0 1px 1px rgba(255,255,255,0.8);
-
-}
-#prevnextbox{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  text-align: center;
-
 }
 #next, #prev{
   padding-top: 10px;
   padding-bottom: 14px;
 }
+#page1 {
+  padding:0px;
+  background: url('paper.png');
+}
+.platillo{
+  font-size: 1.2em;
+  color: #ffebcd;
+  
+}
+.precio{
+  color:aqua;
+  
+}
+.indicates{
+  color:white;
+} 
+.name{
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 100px;
+}
+#parrafo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+
+}
+.share{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .fderercha,{
   color: white;
 }
-#nombre{
- text-shadow: 0px 1px 1px black;
-        color: #222;
-        font: 80px
+.nombre{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 1.5em;
 }
+.descripcion{
+  font-size: 16px;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.foto{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
