@@ -93,8 +93,8 @@ a{
   background: url('paper.png');
 }
 .platillo{
-  font-size: 1.2em;
   color: #ffebcd;
+  font-size: 1.2em;
   
 }
 .precio{
@@ -134,6 +134,7 @@ a{
   margin-top: 0px;
   padding-right: 20px;
   padding-left: 20px;
+  color:;
 }
 .foto{
   max-width: 100%;
