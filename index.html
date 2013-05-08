@@ -10,824 +10,97 @@
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
     <script src="js/cofun.js"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "c4002847-4167-4692-943b-40bf98978eb0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head>
 <body>
-  <div data-role="page" data-theme="f" id="page1">
-      <div data-role="panel" data-theme="a"id="panel" data-position="left" display="push">
-              <ul data-role="listview" data-filter="true" data-theme="a" id="list" data-filter-placeholder="Search fruits..." data-inset="true">
-                 <li><a href="#">Apple</a></li>
-                 <li><a href="#">Banana</a></li>
-                 <li><a href="#">Cherry</a></li>
-                 <li><a href="#">Cranberry</a></li>
-                 <li><a href="#">Grape</a></li>
-                 <li><a href="#">Orange</a></li>
-             </ul>
+    <div data-role="page" data-theme="f" id="page1">
+        <div data-role="panel" data-theme="a"id="panel" data-position="left" data-display="push">
+        <ul data-role="listview"class="lista1" data-inset="true">
+                 <p class="categoria">categoria</p>
+                 <a href="#"><span class="barras">&#8801;</span> Apple</a>
+                 <a href="#">&nbsp;&nbsp;&nbsp;Banana</a>
+                 <a href="#">Cherry</a>
+                 <a href="#">Cranberry</a>
+                 <p data-role="list-divider" data-theme="a" class="categoria">categoria</p>
+                 <a href="#">Grape</a>
+                 <a href="#">Orange</a>
+        </ul><!-- panel content goes here -->
         </div>
         <div data-role="panel" id="panel2" data-position="right" data-display="push">
-                             <div data-role="collapsible-set" data-theme="" data-content-theme="">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Appetizers
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Egg Roll
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Barbecue Spare Ribs
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Cho Cho
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Fried Wanton
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Volcano Plate
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Pot Sticker
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Crab Ragoon
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp Toast
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Fried Cheese Sticks
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Fried Chicken Wings
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Soup
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Egg Drop Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Hot &amp; Sour Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Wonton Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Vegetables Bean Curd Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken and Corn Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Dragon and Phoenix Soup
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chinese Noodles Soup
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Pork
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Pork.
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mu Shu Pork
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Pork
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Ma Po To - Fu
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Pork in Szechuan Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Twice Cooked Pork
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Poultry
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Curry Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken with Mushrooms
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Kung Pao Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken with Broccoli
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken in Szechuan Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Hot Plate Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mu Shu Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Lemon or Orange Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken with Almonds
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken w/ Cashews
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Moo Goo Gai Pan
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Eight Treasure Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Boneless Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken in Garlic Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken in Hot Pepper Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    New Tze Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken w/ Snow Peas
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Imperial Chicken
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            House Specialties
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    General Chow's Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sesame Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Orange Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Twice Delight
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Crispy Scallop
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Happy Couple
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Hawaii-Five-O
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sizzling Beef and Scallops
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Imperial Delight
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sesame Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Crispy Shrimp w/ Walnuts
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Triple Seafood in a Bird's Nes
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Seafood War Bar
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Whole Lobster Tail In Wine Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Lobster Mandarin Style
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Lobster Cantonese
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Vegetables
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Broccoli in Szechuan Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Cabbage w/ Chinese Mushrooms
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mixed Chinese vegetables
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Eggplant Szechuan
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Vegetarian Special
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Snow Peas and Broccoli
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Bean Curd Homes Style
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Eight Treasure Tofu
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Steak
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Steak with Vegetables
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Special Steak
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Steak Kew
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Steak Hong Kong Style
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Beef
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Broccoli
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Green Pepper
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Mushrooms
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Kung Pao Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Curry Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mu Shu Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Snow Peas
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Kan Shaw Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mongolian Beef
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Duck
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Crispy Duck
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Deep-fried Duck w / Veg
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Duck with Pineapple
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Roast Duck w/ Lychee Sauce
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Nombre de seccion aqui
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chow Mein
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Lo Mein
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Fried Rice
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Egg Foo Young
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Seafood
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp in Ginger Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Shrimp
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef, Shrimp, Chicken with Vegetable
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Shrimp
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Phoenix and Dragon
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp with Snow Peas
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Delight
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Wine Marinated Shrimp
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Happy Family
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Curry Shrimp
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mu Shu Shrimp
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp w/ Lobster Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp in Szechuan Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp in Garlic Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Stir-fried Shrimp &amp; Scallop.
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Scallop &amp; Shrimp in Wine Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Scallop in Szechuan Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Scallop &amp; Shrimp Szechuan
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Family Dinner
-                        </h3>
-                        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Broccoli
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken Almond
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mongolian Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Beef with Green Pepper
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Beef
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Pork
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Pork
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Twice Cooked Pork
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Dragon and Phoenix
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Mongolian Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Moo Goo Gai Pan
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Eight Treasure Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken with Broccoli
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Chicken with Cashews
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Delight
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    House Chicken
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp in Lobster Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Shrimp In Ginger Sauce
-                                </a>
-                            </li>
-                            <li data-theme="c">
-                                <a href="#page1" data-transition="slide">
-                                    Sweet and Sour Shrimp
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!-- panel content goes here -->
+            <!-- panel2 content goes here -->
         </div>
-      <div data-theme="b" data-role="header" id="cabesa" >
-         <a href="#panel"  id="menu" data-icon="bars" data-iconpos="left"> Menu
-         </a>
-         <p class="nombre">Ming Tree</p>
-         <a href="#panel2"  data-icon="bars" data-iconpos="left"> Menu
-         </a>
-      </div>
-      <div data-role="content" style="padding: 0px">
-          <div style=" text-align:center;">
-              <img class="foto" src="pic/OrangeCk.png"><!--editar foto-->
-          </div>
-          <div class="ui-grid-a" id="prevnextbox">
-            <div class="ui-block-a"id="prev">
-                <div>
-                    <a href="index3.html" data-transition="slide" data-theme="f"  data-direction="reverse" data-icon="" id="fderecha">&larr;
-                    </a><!--editar html anterior-->
+        <div data-theme="b" data-role="header" id="cabesa" >
+            <a href="#panel"  id="menu" data-icon="bars" data-iconpos="left"> Menu
+            </a>
+            <p class="nombre">
+                Ming Tree
+            </p>
+            <a href="#panel2"  data-icon="bars" data-iconpos="left">
+                 Menu
+            </a>
+        </div>
+        <div data-role="content" style="padding: 0px">
+            <div style=" text-align:center;">
+                <img class="foto" src="pic/OrangeCk.png"><!--editar foto-->
+            </div>
+            <div class="ui-grid-a" id="prevnextbox">
+                <div class="ui-block-a"id="prev">
+                    <div>
+                        <a href="index3.html" data-transition="slide" data-theme="f"  data-direction="reverse" data-icon="" id="fderecha">
+                        &larr;<!--editar html anterior-->
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-block-b" id="next">
+                    <div>
+                        <a href="index2.html" data-transition="slide" data-theme="f" id="fizquierda">
+                        &rarr;<!--editar html siguiente-->
+                        </a>   
+                    </div>
                 </div>
             </div>
-            <div class="ui-block-b" id="next">
-                <div>
-                    <a href="index2.html" data-transition="slide" data-theme="f" id="fizquierda"> &rarr;
-                    </a><!--editar html siguiente-->
-                </div>
-            </div>
-        </div>
-        <div data-role="navbar" data-iconpos="left" id="navbar" data-theme="f">
-            <ul>
-                <li>
-                    <a href="index2.html" data-transition="fade" data-theme="f" data-icon=""><span class="fderecha">&larr;</span>Prev
-                    </a>
-                </li>
-                <li>
-                  <div data-theme="a" id="oldshare">
-                <a href="#popupMenu" data-rel="popup" data-role="button" data-block="true" data-transition="flip" data-theme="a"><span class="fontawesome-share"></span><br>Share
-                </a>
-              <div data-role="popup" id="popupMenu" data-theme="f">
-                <div>
-                  <a id="facebook" data-theme"f" href="http://www.facebook.com">Facebook</a>
-                </div>
-                <div>
-                  <a id="twitter"  data-theme"f" href="http://twitter.com/share?text=An%20Awesome%20Link%20via%20@themingtree&url=http://www.themingtree.mobi/BBQ.html"><span class="fontawesome-twitter"></span>   Twitter
-                  </a> 
-                </div> 
-            </div>
-                </li>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="f">Next 
-                       <span class="fizquierda">&rarr;</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="ui-grid-a" id="namepricesharer">
-            <div class="ui-block-a" id="grida">
+            <div class="ui-grid-a" id="namepricesharer">
+                <div class="ui-block-a" id="grida">
                     <p id="parrafo">
-                    <span class="nck1" id="name"><!--editar nombre--></span><br> <span class="pck1" id="price"><!--editar precio--></span>
+                    <span class="nck1" id="name"> <!--editar nombre--></span>
                     </p>
+                    <p class="pck1" id="price">
+                        precio <!--editar precio-->
+                    </p>
+                </div>
+                <div class="ui-block-b" id="gridb">
+                    <a href="#popupMenu" data-rel="popup" class="share">icon<br>Share<br>
+                    </a>
+                </div>
             </div>
-            <div class="ui-block-b" id="gridb">
-                <a href="#popupMenu" data-rel="popup" class="share">icon<br>Share<br>
+            <div id="cajadescripcion">
+                <p class="dck1" id="descripcion"><!--editar descripcion--></p>
+            </div>
+            <div data-role="popup" id="popupMenu" data-theme="f">
+                <a id="facebook" data-theme"f" href="http://www.facebook.com">
+                    Facebook
+                </a>
+                <a id="twitter"  data-theme"f" href="http://twitter.com">
+                    Twitter
                 </a>
             </div>
+            <span class='st_sharethis_large' displayText='ShareThis'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_linkedin_large' displayText='LinkedIn'></span>
+<span class='st_pinterest_large' displayText='Pinterest'></span>
+<span class='st_email_large' displayText='Email'></span>
+            <div  data-role="footer" id="footer">
+                <p class="indicates"> &copy; 2013 Ming Tree Chinese Restaurant <br>All rights reserved</p>
+            </div> 
         </div>
-        <div id="cajadescripcion">
-          <p class="dck1" id="descripcion"><!--editar descripcion--></p>
-        </div>
-        <div>
-        </div>
-        <div data-role="popup" id="popupMenu" data-theme="f">
-                <div>
-                  <a id="facebook" data-theme"f" href="http://www.facebook.com">Facebook</a>
-                </div>
-                <div>
-                  <a id="twitter"  data-theme"f" href="http://twitter.com">
-                    Twitter
-                  </a> 
-                </div> 
-            </div>
+        <div id="pcorazon">
+            <a id="empty">
+                 &#9829;
+            </a>
         </div>   
-        <div  data-role="footer" id="footer" data-theme="a" data-position="fixed">
-          <span class="fontawesome-leaf"></span> <span class="indicates"> &copy; 2013 Ming Tree Chinese Restaurant <br>All rights reserved</span>
-        </div> 
-   </div>
+    </div>
 </body>
 </html>
