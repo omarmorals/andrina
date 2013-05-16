@@ -1,158 +1,38 @@
-h3 {
-  background-color: #000;
-  width: 100%;
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: #c0c0c0;
-}
-#cajadescripcion {
-  border-bottom: 1px solid #fff;
-  text-align: center;
-}
-#cabesa {
-  background: #4099ff;
-}
-#facebook {
-  background: #3b5998;
-  box-shadow: none;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  display: block;
-}
-#footer {
-  background: #4099ff;
-  font-size: 0.7em;
-  text-align: center;
-  margin-bottom: 0;
-}
-#grida {
-  width: 80%;
-}
-#gridb {
-  font-weight: bold;
-  text-align: center;
-  width: 20%;
-}
-#menu {
-  background: #4099ff;
-  border-radius: 3px;
-  font-weight: bold;
-}
-#nombre {
-  text-shadow: 0 1px 1px #000;
-  color: #222;
-  font: 80px;
-}
-#panel {
-  background: #cccccc;
-  border-radius: 1px;
-}
-#list {
-  border-radius: 1px;
-}
-#twitter {
-  background: #4099ff;
-  box-shadow: none;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  display: block;
-}
-#prevnextbox {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  text-align: center;
-}
-#oldshare {
-  display: none;
-}
-#navbar {
-  border-bottom: 1px solid #000;
-  display: none;
-}
-#fderecha,
-#fizquierda {
-  border: 1px solid #000;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-radius: 40px;
-  padding: 0 4px 4px 4px;
-  margin-top: -50px;
-  color: #000;
-  box-shadow: 0 1px 2px #fff, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
-}
-#next,
-#prev {
-  padding-top: 10px;
-  padding-bottom: 14px;
-}
-#page1 {
-  padding: 0;
-  background: url("paper.png");
-}
-.platillo {
-  color: #ffebcd;
-  font-size: 1.2em;
-}
-#precio {
-  color: #0ff;
-}
-.indicates {
-  color: #fff;
-}
-#name {
-  font-weight: bold;
-  font-size: 1em;
-  padding-top: 100px;
-}
-#parrafo {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-left: 10px;
-}
-.share {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.fderercha,
- {
-  color: #fff;
-}
-.nombre {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: 1.5em;
-}
-#descripcion {
-  font-size: 16px;
-  margin-top: 0;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.foto {
-  max-width: 100%;
-  height: auto;
-}
-.lista1 a {
-  font-size: 1em;
-  text-decoration: none;
-  display: block;
-  border-bottom: 2px solid #c0c0c0;
-  color: red;
-  padding: 0.8em 0 0.8em 0;
-  margin-top: 0;
-  
-}
-.lista1 p{
-    color: #cccccc;
-    border-bottom: 2px solid #cccccc;
-    margin: 0px; 
-}
-.lista1 a:hover {
-  background-color: #f00;
-}
+#cajadescripcion{border-bottom:1px solid #fff;text-align:center}
+a{text-decoration:none}
+.cabesa{background:#4099ff}
+#facebook{background:#3b5998}
+#facebook,#twitter{box-shadow:none;color:#fff;text-align:left;padding:.7em;display:block;font-family:arial;font-weight:bold;font-size:1em}
+#footer{background:#4099ff;font-size:.7em;text-align:center;margin-bottom:0}
+#grida{width:80%}
+#gridb{font-weight:bold;text-align:center;width:20%}
+#menu{background:#4099ff;border-radius:3px;font-weight:bold}
+#nombre{text-shadow:0 1px 1px #000;color:#222;font:80px}
+#panel{background:url("granada.png");border-radius:1px;padding:0}
+#list{border-radius:1px}
+#twitter{background:#4099ff}
+#prevnextbox{border-top:1px solid #000;border-bottom:1px solid #000;text-align:center}
+#fderecha,#fizquierda{border:1px solid #808080;font-size:1.5em;font-weight:bold;border-radius:40px;padding:0 4px 4px 4px;margin-top:-50px;color:#808080;box-shadow:0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)}
+#next,#prev{padding-top:10px;padding-bottom:14px}
+#page1{padding:0;background:url("jeans.png")}
+.platillo{color:#ffebcd;font-size:1.2em}
+#precio{color:#0ff}
+.indicates{color:#fff}
+#name{font-weight:bold;font-size:1em;padding-top:100px}
+#parrafo{margin-top:5px;margin-bottom:5px;padding-left:10px}
+.share{padding-top:3px;padding-bottom:5px;color:#808080}
+.fderercha,{color:#fff}
+.nombre{font-weight:bold;text-align:center;margin-bottom:0;margin-top:0;font-size:1.5em}
+#descripcion{font-size:16px;margin-top:0;padding-right:20px;padding-left:20px}
+.foto{max-width:100%;height:auto}
+.lista1 a{font-size:1em;padding:.8em 0 .8em 0;margin-top:0;display:block;background:#434b5b;border-bottom:1px solid #242a37;color:#c4ccda;margin:0;border-radius:0;border-top:#5f6673;text-align:left;width:100%}
+.lista1 a:hover{background-color:#434b5b}
+#panel ul a{color:#c0c0c0}
+.apanel1 a{color:#c0c0c0;border-bottom:1}
+.item{display:block;background:#434b5b;border-bottom:1px solid #242a37;color:#c4ccda;margin:0;border-radius:0;border-top:#5f6673;text-align:left;font-size:5px;width:100%}
+@font-face{font-family:myFirstFont;src:url("face.ttf"),url("Sansation_Light.eot")}
+.face,{font-family:myFirstFont;color:#fff;font-size:2em;vertical-align:middle}
+.shareico{font-family:myFirstFont;color:#808080;padding-top:1em;font-size:3em}
+.ui-pannel-inner{padding:0}
+#panel2 h3{background:#2b343b;border-radius:5px}
+.divider{color:#c4ccda}
