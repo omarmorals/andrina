@@ -1,25 +1,45 @@
+@font-face
+   font-family myFirstFont
+   src url(face.ttf)
+a
+  text-decoration: none
 #cajadescripcion
   border-bottom: 1px solid #fff
   text-align: center
+  p
+      color #333333
 
-a
-  text-decoration: none
-
-.cabesa
-  background: #4099ff
+.descripcion
+  font-size: 16px
+  margin-top: 0
+  padding-right: 20px
+  padding-left: 20px
+  color red
 
 #facebook
   background: #3b5998
+  border-top: #5f6673
+  border-bottom: 1px solid #242a37
 
 #facebook,#twitter
   box-shadow: none
-  color: #fff
+  color: white
   text-align: left
   padding: .7em
   display: block
   font-family: arial
   font-weight: bold
   font-size: 1em
+
+#fderecha,#fizquierda
+  border: 1px solid black
+  font-size: 1.5em
+  font-weight: bold
+  border-radius: 40px
+  padding: 0 4px 4px 4px
+  margin-top: -50px
+  color: black
+  box-shadow: 0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)
 
 #footer
   background: #4099ff
@@ -35,69 +55,86 @@ a
   text-align: center
   width: 20%
 
-#menu
-  background: #4099ff
-  border-radius: 3px
+#next,#prev
+  padding-top: 10px
+  padding-bottom: 14px
+
+
+#name
   font-weight: bold
+  font-size: 1em
+  padding-top: 100px
+  color #333333
 
-#nombre
-  text-shadow: 0 1px 1px #000
-  color: #222
-  font: 80px
-
-#panel
-  background: url("granada.png")
+#panel, #panel2
+  background: #333
   border-radius: 1px
   padding: 0
+
+#panel ul a
+  color: #c0c0c0
+
 
 #list
   border-radius: 1px
 
 #twitter
   background: #4099ff
+  border-top: 2px solid #5f6673
+  border-bottom: 2px solid #242a37
 
 #prevnextbox
   border-top: 1px solid #000
   border-bottom: 1px solid #000
   text-align: center
 
-#fderecha,#fizquierda
-  border: 1px solid #808080
-  font-size: 1.5em
-  font-weight: bold
-  border-radius: 40px
-  padding: 0 4px 4px 4px
-  margin-top: -50px
-  color: #808080
-  box-shadow: 0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)
-
-#next,#prev
-  padding-top: 10px
-  padding-bottom: 14px
-
 #page1
   padding: 0
-  background: url("jeans.png")
-
-.platillo
-  color: #ffebcd
-  font-size: 1.2em
+  background: beige
 
 #precio
   color: #0ff
-
-.indicates
-  color: #fff
-
-#name
-  font-weight: bold
-  font-size: 1em
-  padding-top: 100px
 
 #parrafo
   margin-top: 5px
   margin-bottom: 5px
   padding-left: 10px
+  color #333333
+
+#panel2 h3
+  background: #2b343b
+  border-radius: 0px
+  color white
+  text-shadow: 0px 0px -1px white
+  border-bottom red
+  a:hover
+    background #999
+    color black
+
+
+.platillo
+  color: #ffebcd
+  font-size: 1.2em
+
+.cabesa
+    background: #4099ff
+    height 3em
+    .huno
+        color white
+        font-size 1.5em
+        padding-top 0px
+        vertical-align top
+    a
+        color white
+        vertical-align bottom
+    .botonmenu
+        font-size 0.8em
+        display block
+        margin 0 0 0 0
+
+
+.indicates
+  color: #fff
 
 .share
   padding-top: 3px
@@ -113,12 +150,6 @@ a
   margin-bottom: 0
   margin-top: 0
   font-size: 1.5em
-
-#descripcion
-  font-size: 16px
-  margin-top: 0
-  padding-right: 20px
-  padding-left: 20px
 
 .foto
   max-width: 100%
@@ -136,13 +167,11 @@ a
   border-radius: 0
   border-top: #5f6673
   text-align: left
+  text-shadow: 0px 0px -1px #c4ccda
   width: 100%
 
 .lista1 a:hover
   background-color: #434b5b
-
-#panel ul a
-  color: #c0c0c0
 
 .apanel1 a
   color: #c0c0c0
@@ -153,6 +182,7 @@ a
   background: #434b5b
   border-bottom: 1px solid #242a37
   color: #c4ccda
+  text-shadow: 0px 0px -1px white
   margin: 0
   border-radius: 0
   border-top: #5f6673
@@ -160,7 +190,7 @@ a
   font-size: 5px
   width: 100%
 
-undefined.face,
+.face
   font-family: myFirstFont
   color: #fff
   font-size: 2em
@@ -168,17 +198,25 @@ undefined.face,
 
 .shareico
   font-family: myFirstFont
-  color: #808080
+  color: black
   padding-top: 1em
   font-size: 3em
 
-.ui-pannel-inner
-  padding: 0
-
-#panel2 h3
-  background: #2b343b
-  border-radius: 5px
 
 .divider
   color: #c4ccda
+
+.hola 
+  background black
+
+.icon-facebook, .icon-twitter
+  font-size 1.5em
+#popupMenu
+  background beige
+  padding 0px 0.5em 0.5em 0.5em
+  p 
+      margin 3px
+      text-align center
+      color black
+      font-weight bold
 
