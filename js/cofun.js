@@ -1,13 +1,17 @@
 $(document).ready(function(){
-	$('#chare').click(function(){
-		$('#contenido').load('contenido.html');
-
-		return false;
-
-
+	$('#prueba').click(function(){
+		$('#pruebapanel').load('panell.html', function () {
+    		$(this).trigger('create');
+		});
 	});
 
-	var hola = "hola"
+	$('#prueba2').click(function(){
+		$('#pruebapanelr').load('panelr.html', function () {
+    		$(this).trigger('create');
+		});
+
+	});
+	
 
 
-});
+}); 
