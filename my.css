@@ -1,4 +1,4 @@
-@font-face{font-family:myFirstFont;src:url("face.ttf")}
+
 a{text-decoration:none}
 #cajadescripcion{border-bottom:1px solid #fff;text-align:center;}
 #cajadescripcion p{color:#333}
@@ -6,7 +6,7 @@ a{text-decoration:none}
 .facebook{background:#3b5998;border-top:#5f6673;border-bottom:1px solid #242a37}
 .facebook,.twitter{box-shadow:none;color:#fff;text-align:left;padding:.7em;display:block;font-family:arial;font-weight:bold;font-size:1em}
 #fderecha,#fizquierda{border:1px solid #000;font-size:1.5em;font-weight:bold;border-radius:100px;padding:4px 10px 7px 10px;margin-top:-50px;color:#000;box-shadow:0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)}
-#footer{background:#4099ff;font-size:.7em;text-align:center;margin-bottom:0}
+#footer{background:#447351;font-size:.7em;text-align:center;width:100%;height:60px; position: absolute;bottom: 0;width: 100%}
 #grida{width:80%}
 #gridb{font-weight:bold;text-align:center;width:20%}
 #next,#prev{padding-top:10px;padding-bottom:14px}
@@ -16,13 +16,13 @@ a{text-decoration:none}
 #list{border-radius:1px}
 .twitter{background:#4099ff;border-top:2px solid #5f6673;border-bottom:2px solid #242a37}
 #prevnextbox{border-top:1px solid #000;border-bottom:1px solid #000;text-align:center}
-#page1{padding:0;background:#f5f5dc}
+#page1{padding:0;background:#f5f5dc;margin-bottom:100px}
 .precio{color:#808080;padding:left 5px;margin-top:0}
 #parrafo{margin-top:5px;margin-bottom:5px;padding-left:10px;color:#333}
 #panel2 h3{background:#2b343b;border-radius:0;color:#fff;text-shadow:none;border-bottom:#f00;}
 #panel2 h3 a:hover{background:#999}
 .platillo{color:#ffebcd;font-size:1.2em}
-.cabesa{background:#4099ff;height:3em;}
+.cabesa{background:#447351;height:3em;}
 .cabesa .huno{color:#fff;font-size:1.5em;padding-top:0;vertical-align:top}
 .cabesa a{color:#fff;vertical-align:bottom}
 .cabesa .botonmenu{font-size:.8em;display:block;margin:0 0 0 0}
@@ -30,6 +30,7 @@ a{text-decoration:none}
 .share{padding-top:3px;padding-bottom:5px;color:#808080}
 .fderercha,color: #fff,.nombre{font-weight:bold;text-align:center;margin-bottom:0;margin-top:0;font-size:1.5em}
 .foto{max-width:100%;height:auto}
+.fotopanel{max-width:100%;height:100px;text-align:center ;}
 .lista1 a{font-size:1em;padding:.8em 0 .8em 0;margin-top:0;display:block;background:#434b5b;border-bottom:1px solid #242a37;color:#c4ccda;margin:0;border-radius:0;border-top:#5f6673;text-align:left;text-shadow:0 0 -1px #c4ccda;width:100%}
 .lista1 a:hover{background-color:#434b5b}
 .apanel1 a{color:#c0c0c0;border-bottom:1}
