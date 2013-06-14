@@ -6,7 +6,6 @@ a{text-decoration:none}
 .facebook{background:#3b5998;border-top:#5f6673;border-bottom:1px solid #242a37}
 .facebook,.twitter{box-shadow:none;color:#fff;text-align:left;padding:.7em;display:block;font-family:arial;font-weight:bold;font-size:1em}
 #fderecha,#fizquierda{border:1px solid #000;font-size:1.5em;font-weight:bold;border-radius:100px;padding:4px 10px 7px 10px;margin-top:-50px;color:#000;box-shadow:0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)}
-#footer{background:#447351;font-size:.7em;text-align:center;margin-bottom:0px;}
 #grida{width:80%}
 #gridb{font-weight:bold;text-align:center;width:20%}
 #next,#prev{padding-top:10px;padding-bottom:14px}
@@ -26,7 +25,6 @@ a{text-decoration:none}
 .cabesa .huno{color:#fff;font-size:1.5em;padding-top:0;vertical-align:top}
 .cabesa a{color:#fff;vertical-align:bottom}
 .cabesa .botonmenu{font-size:.8em;display:block;margin:0 0 0 0}
-.indicates{color:#fff}
 .share{padding-top:3px;padding-bottom:5px;color:#808080}
 .fderercha,color: #fff,.nombre{font-weight:bold;text-align:center;margin-bottom:0;margin-top:0;font-size:1.5em}
 .foto{max-width:100%;height:auto}
@@ -43,4 +41,11 @@ a{text-decoration:none}
 #popupMenu{background:#f5f5dc;padding:0 .5em .5em .5em;}
 #popupMenu p{margin:3px;text-align:center;color:#000;font-weight:bold}
 .menuseccion{color:#f0f0f0;margin-bottom:0;border-bottom:1px solid #f0f0f0;text-shadow:none}
-.menudescripcion{font-size:1em;color:#f0f0f0;text-shadowbackground-color:#f00;border-left:2px solid #fff}
+.menudescripcion{font-size:1em;color:#f0f0f0;text-shadow;background-color:#f00;border-left:2px solid #fff}
+.logo{width:100%;height: 200px;}
+.specials{margin-top: 0px;background: #BBD531;}
+.specials img{width:100%;height: 100px;}
+.specials p{margin-bottom: 0px;text-align: center;font-family: arial;font-size: 1em;color: #447351;font-weight: bold;}
+#footer{background: #447351;}
+#footer p{margin-bottom: 0px;margin-top: 0px;font-size: 0.7em;text-align: center;}
+.hola{display:block;background:#447351;border-bottom:1px solid #242a37;color:#f5f5dc;text-shadow:none;border-radius:0;border-top:#5f6673;text-align:left;font-size:5px;font-family: arial;font-weight: bold;margin: 0px;}
