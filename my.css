@@ -6,7 +6,7 @@ a{text-decoration:none}
 .facebook{background:#3b5998;border-top:#5f6673;border-bottom:1px solid #242a37}
 .facebook,.twitter{box-shadow:none;color:#fff;text-align:left;padding:.7em;display:block;font-family:arial;font-weight:bold;font-size:1em}
 #fderecha,#fizquierda{border:1px solid #000;font-size:1.5em;font-weight:bold;border-radius:100px;padding:4px 10px 7px 10px;margin-top:-50px;color:#000;box-shadow:0 1px 2px #fff,0 -1px 1px #666,inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8)}
-#footer{background:#447351;font-size:.7em;text-align:center;width:100%;height:60px; position: absolute;bottom: 0;width: 100%}
+#footer{background:#447351;font-size:.7em;text-align:center;margin-bottom:0px;}
 #grida{width:80%}
 #gridb{font-weight:bold;text-align:center;width:20%}
 #next,#prev{padding-top:10px;padding-bottom:14px}
@@ -16,7 +16,7 @@ a{text-decoration:none}
 #list{border-radius:1px}
 .twitter{background:#4099ff;border-top:2px solid #5f6673;border-bottom:2px solid #242a37}
 #prevnextbox{border-top:1px solid #000;border-bottom:1px solid #000;text-align:center}
-#page1{padding:0;background:#f5f5dc;margin-bottom:100px}
+#page1{padding:0;background:#f5f5dc}
 .precio{color:#808080;padding:left 5px;margin-top:0}
 #parrafo{margin-top:5px;margin-bottom:5px;padding-left:10px;color:#333}
 #panel2 h3{background:#2b343b;border-radius:0;color:#fff;text-shadow:none;border-bottom:#f00;}
