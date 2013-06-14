@@ -1,3 +1,13 @@
 .menu{
-	{display:block;background:#434b5b;border-bottom:1px solid #242a37;color:#c4ccda;text-shadow:none;margin:0;border-radius:0;border-top:#5f6673;text-align:left;font-size:5px;width:100%}
+	display:block;
+	background:#434b5b;
+	border-bottom:1px solid #242a37;
+	color:#c4ccda;
+	text-shadow:none;
+	margin:0;
+	border-radius:0;
+	border-top:#5f6673;
+	text-align:left;
+	font-size:5px;
+	width:100%;
 }
