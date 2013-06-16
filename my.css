@@ -49,3 +49,36 @@ a{text-decoration:none}
 #footer{background: #447351;}
 #footer p{margin-bottom: 0px;margin-top: 0px;font-size: 0.7em;text-align: center;}
 .hola{display:block;background:#447351;border-bottom:1px solid #242a37;color:#f5f5dc;text-shadow:none;border-radius:0;border-top:#5f6673;text-align:left;font-size:5px;font-family: arial;font-weight: bold;margin: 0px;}
+.awardbox{
+	background: #447351;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+.awardyear{
+	text-align: center;
+	margin-top: 0px;
+	vertical-align: top;
+	color:#BBD531;
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+.awardbox img{
+	width: 94%;
+	padding-left: 3%;
+	padding-top: 3%;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
