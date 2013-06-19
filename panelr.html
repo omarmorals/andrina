@@ -1,12 +1,16 @@
                      <div data-role="collapsible-set" data-theme="none" data-content-theme="">
                                   <div data-role="collapsible-set" data-theme="none" data-content-theme="">
+                                    <form>
+     <label for="search-1">Search:</label>
+     <input type="search" name="search-1" id="search-1" value="">
+</form>
                 <p class="menuseccion">Section Demo</p>
               <div data-role="collapsible" data-collapsed="true">
                   <h3 ><span class="divider"> 
                       Appetizers
                     </span>
                   </h3>
-                  <ul data-role="listview">
+                  <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." >
                           <a href="demo1.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Egg Roll</a>
                           <a href="demo2.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Barbecue Spare Ribs</a>
                           <a href="demo3.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Cho Cho</a>
@@ -17,10 +21,10 @@
                       Soup
                     </span>
                   </h3>
-                  <ul data-role="listview">
-                          <a href="demo4.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Egg Drop Soup</a>
-                          <a href="demo5.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Hot and Sour Soup</a>
-                          <a href="demo6.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Wonton Soup</a>
+                  <ul data-role="listview" data-filter="true">
+                          <a data-filter="true"href="demo4.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Egg Drop Soup</a>
+                          <a data-filter="true"href="demo5.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Hot and Sour Soup</a>
+                          <a data-filter="true"href="demo6.html" data-role="button"data-transition="slide" class="item" data-icon="arrow-r" data-iconpos="right">Wonton Soup</a>
                   </ul>
               </div>
               <div data-role="collapsible" data-collapsed="true">
