@@ -71,6 +71,35 @@ a{text-decoration:none}
 	padding-top: 3%;
 	margin-bottom: 0px;
 }
+.itemmenu{
+	display:block;
+	background:#434b5b;
+	color:#c4ccda;
+	text-shadow:none;
+	margin:0;
+	border-radius:0;
+	border-top:#5f6673;
+	text-align:left;
+	font-size:5px;
+	width:100%;
+}
+.menuseccionmenu{
+	background: #447351;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color:aqua;
+	font-size: 1em;
+	padding: 3px;
+	margin-top: 0px;
+}
+.dividermenu{
+	color:grey;
+	
+}
+#dividermenu h3 a:hover{background:#BBD531;color:#447351;}
+#dividermenu h3{border-bottom: 2px solid grey;}
+#dividermenu{border-radius: 0px;margin-bottom: 0px;}
+
 
 
 
