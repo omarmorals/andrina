@@ -1,5 +1,6 @@
 
 a{text-decoration:none}
+a:active {color:none;}
 #cajadescripcion{border-bottom:1px solid #fff;text-align:center;}
 #cajadescripcion p{color:#333}
 .descripcion{font-size:16px;margin-top:0;padding-right:20px;padding-left:20px;color:#f00}

@@ -1,0 +1,7 @@
+http://maps.google.com/maps?q=cupertino
+
+http://maps.google.com/maps/?q=Ming+Tree+Chinese+Restaurant%2C+Alcoa+Highway%2C+Alcoa%2C+TN&data=!4m11!1m10!2i16!4m8!1m3!1d18848034!2d-95.677068!3d37.0625!3m2!1i935!2i555!4f13.1
+
+https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Ming%20Tree%20Chinese%20Restaurant,%20Alcoa%20Highway,%20Alcoa,%20TN&aq=0&oq=ming%20tree%20&sll=35.830521,-85.978599&sspn=2.672019,5.108643&ie=UTF8&hnear=Alcoa%20Hwy,%20Alcoa,%20Tennessee&t=m&ll=35.819727,-83.978875&spn=0.024412,0.011284&source=embed
+
+javascript:void(0)
