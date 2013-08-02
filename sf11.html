@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta property="og:image" content="http://themingtree.mobi/pic/sf11.png"/>
+     <link rel="apple-touch-icon" href="pic/icon.png"/>
+	  <title>Mu Shu Shrimp</title><!--editar titulo-->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <link rel="stylesheet" href="my.css"/>
+    <link rel="stylesheet" href="normalize.css"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script src="js/cofun.js"></script>
+</head>
+<body>
+    <div data-role="page" data-theme="f" id="page1">
+        <div data-role="panel" data-theme="none"id="panel" data-position="left" data-display="push" style="padding:0px;">
+            <div id="pruebapanel">
+              <p style="color:white;"> Loading...<p/>
+            </div>
+        </div><!-- panel content goes here -->
+        <div data-role="panel" id="panel2" data-position="right" data-display="push" style="padding:0px;">
+            <div data-role="collapsible-set" data-theme="none" data-content-theme="" id="pruebapanelr">
+              <p style="color:white;"> Loading...<p/>
+            </div>
+        </div><!-- panel2 content goes hesf.html-->
+        <div data-theme="b" data-role="header" class="cabesa" >
+            <a href="#panel"  data-role="none" id="prueba"><i class="icon-reorder icon-2x"></i>
+             </a>   
+            <h1>
+             <span class="huno">Ming Tree</span>
+            </h1>
+
+            <a href="#panel2" data-role="none" id="prueba2"><i class="icon-book icon-2x"></i><br>
+                <span class="botonmenu">menu</span>
+            </a>
+        </div>
+        <div data-role="content" style="padding: 0px">
+            <div style=" text-align:center;">
+                <img class="foto" src="pic/sf11.png" alt="muy pronto la imagen"><!--editar foto-->
+            </div>
+            <div class="ui-grid-a" id="prevnextbox">
+                <div class="ui-block-a"id="prev">
+                    <div>
+                        <a href="sf10.html" data-transition="slide" data-theme="f"  data-direction="reverse" data-icon="" id="fderecha"><i class="icon-arrow-left"></i>
+                        <!--&larr;--editar html anterior-->
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-block-b" id="next">
+                    <div>
+                        <a href="sf12.html" data-transition="slide" data-theme="f" id="fizquierda"><i class="icon-arrow-right"></i>
+                        <!--&rarr;--editar html siguiente-->
+                        </a>   
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a" id="namepricesharer">
+                <div class="ui-block-a" id="grida">
+                    <p id="parrafo">
+                    <span id="name"> Mu Shu Shrimp<!--editar nombre--></span>
+                    </p>
+                    <p class="precio">
+                        &nbsp;&nbsp;$11.65<!--editar precio-->
+                    </p>
+                </div>
+                <div class="ui-block-b" id="gridb">
+                    <a href="#popupMenu" data-rel="popup" class="share"><span class="shareico"><i class="icon-share"></i></span><br>Share<br>
+                    </a>
+                </div>
+            </div>
+            <div id="cajadescripcion">
+                <p class="descripcion"> shrimpsstir-fried with eggs, cabbages, bean sprouts, bamboo
+shoots and mushrooms. for your dining pleasure, pancakes will be wrapped over
+as rolls by yourself.<!--editar descripcion--></p>
+            </div>
+            <div data-role="popup" id="popupMenu" data-theme="f">
+                <p>Share</p>
+                <a class="facebook" data-theme"f" href="http://www.facebook.com/sharer.php?u=http://www.themingtree.mobi/sf11.html"><i class="icon-facebook"></i>&nbsp;Facebook
+                </a>
+                <a class="twitter"  data-theme"f" href="http://twitter.com/share?text=An%20Awesome%20Link&url=http://www.themingtree.mobi/sf11.html&via=themingtree"><i class="icon-twitter"></i>&nbsp;Twitter
+                </a>
+            </div> 
+        </div> 
+        <div id="footer" data-theme="a" data-role="footer" data-position="fixed">
+                <h5>
+                    <p > &copy; 2013 Ming Tree Chinese Restaurant <br>All rights reserved</p>
+                </h5>
+        </div>  
+    </div>
+</body>
+</html>

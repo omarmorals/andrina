@@ -22,7 +22,7 @@ ap1 <---------------------------------------------------------------------- pcod
 Egg Roll <----------------------------------------------------------------- prn   = platillo real nombre
 savory bits of beef and pork sauteed with chinese vegetables in a <-------- pdes  = platillo descripcion
 crispy golden wrapper.
-$1.47 <-------------------------------------------------------------------- pp    = platillo precion 
+$1.47 <-------------------------------------------------------------------- ppp    = platillo precion 
 
 ests codigos van ha estar en el documento engine.html. 
 
@@ -83,7 +83,7 @@ breaded cheese deep fried to golden brown. served with
 house sauce.
 $4.95
 
-ap1
+ap10
 Fried Chicken Wings (6) 
 marinated chicken wing, lightly breaded then deep
 fried to golden brown.
@@ -672,8 +672,8 @@ select vegetables in our house brown sauce. a delight even to look at!
 $9.25
 
 ck15
-Boneless Chicken boneless
-withe chicken meat breaded deep fried to a golden
+Boneless Chicken 
+boneless withe chicken meat breaded deep fried to a golden
 brown, and served on a bed of mixed vegetables in a white sauce.
 $9.25
 
